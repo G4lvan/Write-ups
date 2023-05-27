@@ -1,0 +1,158 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Reglas de diseño responsivo */
+@media only screen and (max-width: 768px) {
+  /* Estilos para dispositivos con ancho máximo de 768px (como celulares) */
+  /* Aquí puedes agregar los estilos específicos para dispositivos móviles */
+}
+
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+  background-image: url("logo.jpg"); /* Reemplaza 'ruta/a/tu/logo.jpg' con la ruta correcta a tu imagen de logo */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.menu-float {
+  position: fixed;
+  top: 20px;
+  left: 80px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-float h2 {
+  margin: 0 0 10px;
+}
+
+.menu-float ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-float li {
+  margin-bottom: 5px;
+}
+
+.menu-float a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #000;
+}
+
+section {
+  margin-top: 80px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+.boton-redondo {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(224, 224, 224);
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.boton-redondo img {
+  width: 20px;
+  height: 20px;
+}
+.boton-redondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(224, 224, 224);;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.boton-redondo img {
+  width: 20px;
+  height: 20px;
+}
+.circulo-logo {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(224, 224, 224);;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+}
+
+.circulo-logo img {
+  width: 20px;
+  height: 20px;
+}
+.boton-redondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f00;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.boton-redondo img {
+  width: 20px;
+  height: 20px;
+}
+.contenedor-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.contenedor-imagen img {
+  max-width: 100%;
+  max-height: 100%;
+}
